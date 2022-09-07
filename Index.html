@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,15 +11,16 @@
 </head>
 <body background="Images/BackGroundes/BackGround 1.png">
 
-    <h1 id="H1Main"></h1>
-    <h2 id="H2Rank"></h2>
-    <h3 id="H3Coins">Coins: </h3>
+    <h1 class="center" id="H1Main"></h1>
+    <h2 class="center" id="H2Rank"></h2>
+    <h3 class="center" id="H3Coins">Coins: </h3>
     <audio id="ClickOnCandySound" src="Soundes/1.wav" preload="none"></audio>
-    <img onclick="document.getElementById('ClickOnCandySound').play();" id="CandyButton", src="Images/Candies/1.png" height ="150" width="150">
-    <button id="inventory">Inventory</button>
-    <button id="Shop">Shop</button>
-    <button id="ResetButton">Reset</button>
-
+    <img class="center" onclick="document.getElementById('ClickOnCandySound').play();" id="CandyButton", src="Images/Candies/1.png" height ="150" width="150">
+    <div class="center" id="buttons">
+        <button id="inventory">Inventory</button>
+        <button id="Shop">Shop</button>
+        <button id="ResetButton">Reset</button>
+    </div>
     <script src="Index.js"></script>
 </body>
-<footer>Darkonex © 2022</footer>
+<footer id="footer" class="center">Darkonex © 2022</footer>

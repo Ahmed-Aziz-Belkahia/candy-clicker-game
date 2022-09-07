@@ -76,7 +76,7 @@ function LVLtoRankString(level)
 {
     //convert level to rank
     for (let i = 0; i <= 10; i++) {
-        if (level === i){rank = String("Rank"+i)}
+        if (level === i){rank = String("Rank "+i)}
         else undefined;
     }
     return rank;
