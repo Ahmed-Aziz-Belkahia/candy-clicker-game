@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="TitleCS">Coins: 0</title>
     <link rel="icon" href="Images\Coins\Coin 1920x1920.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <label>Candys to convert:</label>
-    <input id="InputCandysNum" type="number" placeholder="Enter The amount of candys."><br><br>
-    <h3 id="ConvertedCoins">test</h3>
-    <button id="Convert">Buy</button><br/>
-    <button id="BackButton">Back</button>
-
+    <form class="center" id="form">
+        <label class="center">Candys to convert:</labelclass>
+        <input class="center" id="InputCandysNum" type="number"><br><br>
+    </form>
+        <h3 class="center" id="ConvertedCoins">test</h3>
+    <div id="buttons">
+        <button class="center" id="Convert">Buy</button><br/>
+        <button class="center" id="BackButton">Back</button>
+    </div>
     <script src="Index.js"></script>
     <script src="CoinsShop.js"></script>
 </body>
